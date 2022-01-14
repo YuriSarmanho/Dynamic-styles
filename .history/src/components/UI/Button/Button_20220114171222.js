@@ -1,6 +1,5 @@
 // import styled from "styled-components";
-import React from "react";
-import  styles from './Button.module.css'
+import React from 'react'
 // const Button = styled.button`
 //   width: 100%;
 //   font: inherit;
@@ -26,11 +25,11 @@ import  styles from './Button.module.css'
 //     box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 //   }
 // `;
-const Button = (props) => {
-  return (
-    <button type={props.type} className={styles.button} onClick={props.onClick}>
+const Button = props =>{
+  return(
+    <button type={props.type} className='button' onClick={}>
       {props.children}
     </button>
-  );
-};
+  )
+}
 export default Button;
