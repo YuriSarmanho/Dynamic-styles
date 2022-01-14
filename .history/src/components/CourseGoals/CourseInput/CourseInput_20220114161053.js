@@ -16,7 +16,7 @@ const CourseInput = (props) => {
     if(enteredValue.trim().length === 0){
       return setIsValid(false)
     }
-    props.onAddGoal(enteredValue)
+
 
   };
 
